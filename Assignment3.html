@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Assignment3</title>
+	<style>
+		
+	#center{
+		text-align: center;
+	}
+
+	</style>
+</head>
+<body id="center">
+	
+	<h1>Fill the Form</h1>
+	<form>
+		
+		<input type="email" name="email" placeholder="Email" autofocus autocomplete="off" required></br></br>
+		<input type="password" name="pswd" placeholder="Password" required minlength="6"></br></br>	
+		<input type="url" name="url" placeholder="Your Project URL" required></br></br>	
+		Date :<input type="date" name="pdate"  required></br></br>	
+		Month :<input type="month" name="pmonth" placeholder="Current month" required></br></br>
+		<input type="week" name="pweek" placeholder="Current Week" required></br></br>
+		Time :<input type="time" name="ptime" placeholder="Current time" required></br></br>
+		Selector Color :<input type="color" name="pcolor" placeholder="Select Color" required></br></br>
+		Age: <input type="range" name="agerange" placeholder="Age" min="1" max="100" required></br></br>
+		
+		Hobbies :<input type="list" list="hobby" required>
+			<datalist id="hobby">
+				<option value="Reading">Reading</option>
+				<option value="Playing">Playing</option>
+				<option value="Dancing">Dancing</option>
+				<option value="Travelling">Travelling</option>
+				</datalist>	</br></br>
+		<input type="submit" name="submit" value="Submit Query">					
+
+	</form>
+
+
+
+
+</body>
+</html>
